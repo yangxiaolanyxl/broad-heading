@@ -114,6 +114,11 @@ a{
 .rightfour li{
 	margin-bottom: 15px;
 }
+.rightfour li:last-child{
+	font-size: 12px;
+	margin-top: 55px;
+	color: #7f7f7f;
+}
 /*neck结束*/
 /*mainbody开始*/
 .mainbody{
