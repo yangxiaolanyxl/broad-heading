@@ -85,7 +85,6 @@ a{
 /*head结束*/
  .all{
 	background-color: #f4f4f4;
-	position: relative;
 }
 .hea{
 	width: 1200px;
@@ -219,7 +218,7 @@ a{
 	font-size:14px; 
 	color:#ffffff;
 	position: absolute;
-	top:141px;
+	top:281px;
 	left:1570px;
 }
 .li11{
