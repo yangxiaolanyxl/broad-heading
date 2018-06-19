@@ -106,7 +106,7 @@ a{
 	height: 175px;
 	width: 1200px;
 	margin:0 auto;
-	border-bottom:2px dashed #dbdbdb;
+	border-bottom:1px dashed #dbdbdb;
 }
 .first >p{
 	display:block;
@@ -141,11 +141,24 @@ a{
 	margin-top: 25px;
 	color: #484848;
 }
-
-.fifth img{
-	position: absolute;
-	right: 0px;
-	top:138px;
+.rightfour{
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	position: fixed;
+	right: 80px;
+	top: 155px;
+	width: 80px;
+	height: 308px;
+	background: url(../images/bgrightfour.png);
+}
+.rightfour li{
+	margin-bottom: 15px;
+}
+.rightfour li:last-child{
+	font-size: 12px;
+	margin-top: 55px;
+	color: #7f7f7f;
 }
 /*tail开始*/
 .tail{
