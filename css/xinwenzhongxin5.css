@@ -83,17 +83,24 @@ a{
 }
 
 /*head结束*/
-.all{
+.allall{
 	background-color: #f4f4f4;
 }
-.hea{
+.all{
+	background-color: #f4f4f4;
 	width: 1200px;
+	height: 1690px;
+	margin:0 auto;
+}
+.hea{
+	padding-top: 1px;
+	width: 1199px;
 	height: 170px;
 	margin:0 auto;
-	border-bottom: 1px dashed gray;
 }
 .one{
 	font-size: 16px;
+	margin-top: 9px;
 	color:gray;
 }
 .one span{
@@ -109,8 +116,17 @@ a{
 	font-size: 16px;
 	color:gray;
 }
+.changxuxian{
+	position: relative;
+	top: -10px;
+}
+.duanxuxian{
+	margin-left: 50px;
+	position: relative;
+	top: -15px;
+}
 .neck{
-	height: 1470px;
+	height: 1400px;
 	width: 1200px;
 	margin: 0 auto;
 	background-color: #ffffff;
@@ -118,8 +134,8 @@ a{
 }
 .four{
 	width: 1200px;
-	height: 105px;
-	border-bottom:1px dashed gray; 
+	height: 95px;
+	/*border-bottom:1px dashed gray; */
 	margin: 0 auto; 
 }
 .four ul{
@@ -139,19 +155,23 @@ a{
 	padding-left: 170px;
 }
 .fi{
-	margin: 0 auto;
+	margin-left: 50px;
 	width: 1100px;
 	float: left;
 	text-indent: 20px;
 	color: #434343;
 	line-height: 30px;
+	margin-top: 40px;
+	margin-bottom: 50px;
 }
 .fi1{
-	padding-top: 54px;
+	padding-top: 30px;
 	margin: 0 auto;
 	width: 1100px;
 }
 .fiv{
+	margin-top: 40px;
+	font-size: 20px;
 	text-align: center;
 	color: #434343;
 }
@@ -164,23 +184,21 @@ a{
 	width: 1100px;
 	margin: 0 auto;
 	color: #0b4199;
-	padding-top: 115px;
+	margin-top: 80px;
 }
 .six p{
 	line-height: 30px;
+	font-size: 14px;
 }
-.neck2{
-	height: 70px;
-}
-.bian{
+/*.bian{
 	float: right;
 	font-size:14px; 
 	color:#ffffff;
 	position: fixed;
 	top:291px;
 	left:1420px;
-}
-.li11{
+}*/
+/*.li11{
 	width: 84px;
 	height: 78px;
 	border-bottom: 1px dashed white;
@@ -211,6 +229,25 @@ a{
 	border-bottom: 1px solid #8d8d8d;
 	background-color:#8d8d8d;
 	text-align: center; 
+}*/
+.rightfour{
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	position: fixed;
+	right: 94px;
+	top: 155px;
+	width: 80px;
+	height: 308px;
+	background: url(../images/bgrightfour.png);
+}
+.rightfour li{
+	margin-bottom: 15px;
+}
+.rightfour li:last-child{
+	font-size: 12px;
+	margin-top: 55px;
+	color: #7f7f7f;
 }
 /*tail开始*/
 .tail{
