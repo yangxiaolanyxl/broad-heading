@@ -97,7 +97,7 @@ ul,li,ol{
 .headtext{
 	margin-top:20px;
 }
-.twoinput{
+.twoinput input{
 	width: 254px;
 	height: 36px;
 	font-size: 15px;
