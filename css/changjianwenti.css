@@ -97,6 +97,12 @@ ul,li,ol{
 .headtext{
 	margin-top:20px;
 }
+.twoinput{
+	width: 254px;
+	height: 36px;
+	font-size: 15px;
+	background: url(../images/search.png) no-repeat center right;
+}
 .head1 p{
 	font-size: 14px;
 	color: #adadad;
