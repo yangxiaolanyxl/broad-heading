@@ -94,6 +94,9 @@ ul,li,ol{
 	height: 230px;
 	margin:0 auto;
 }
+.headtext{
+	margin-top:20px;
+}
 .head1 p{
 	font-size: 14px;
 	color: #adadad;
