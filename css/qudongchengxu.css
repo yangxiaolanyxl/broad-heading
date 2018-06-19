@@ -1,0 +1,339 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li,ol{
+	list-style: none;
+} 
+/*head开始*/
+.head{
+	height: 153px;
+	background: url(../images/hbg.png) no-repeat center center;
+}
+.midder{
+	width: 1200px;
+	height: 153px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.upperleft{
+	height: 25px;
+	width: 1200px;
+	margin-top: 55px;
+}
+.phone{
+	font-size: 20px;
+	color: #0b4199;
+}
+.chinese,.register{
+	font-size: 14px;
+	color: #7d7d7d;
+}
+.language{
+	font-size: 16px;
+	color: #ef2c34;
+}
+.phone{
+	margin-left: 740px;
+}
+.chinese{
+	margin-left: 27px;
+
+}
+.language{
+	margin-left: 19px;
+
+}
+.menu li{
+	float:left;
+	height: 33px;
+	width: 82px;
+	text-align: center;
+	margin-right: 39px;
+	font-size: 16px;
+	color: #434343;
+	padding-top: 17px;
+}
+.menu li:first-child{
+	text-align: left;
+	margin-right: 0px;
+
+}
+.skill{
+	background: #2756a4;
+}
+.menu{
+	height: 50px;
+	margin-top: 25px;
+
+}
+.menu input{
+	width: 254px;
+	height: 36px;
+	font-size: 15px;
+	background: url(../images/search.png) no-repeat center right;
+	border: none;
+	margin-left: 15px;
+}
+.rightinput{
+    padding-top: 4px;
+}
+
+/*head结束*/
+
+.body{
+	width: 100%;
+	height: 1785px;
+	background-color: #f9f9f9;
+}
+.head1{
+	width: 1200px;
+	height: 230px;
+	margin:0 auto;
+}
+.head1 p{
+	font-size: 14px;
+	color: #adadad;
+	margin-top: 20px;
+}
+.head1 h1{
+	font-size: 24px;
+	color: #3e3e3e;
+	margin-top: 60px;
+	margin-bottom: 5px;
+}
+.head1 h2{
+	font-size: 14px;
+	color: #3e3e3e;
+	
+}
+.head1 form{
+	font-size: 16px;
+	margin-top: 40px;
+}
+.page{
+	width: 1200px;
+	height: 1474px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.nav{
+	width: 1200px;
+	height: 50px;
+	background: url(../images/head2.png) no-repeat center;
+}
+.nav li{
+	width: 380px;
+	height: 50px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	float: left;
+}
+.left{
+	width: 400px;
+	height: 1420px;
+	float: left;
+}
+.type{
+	width: 295px;
+	height: 35px;
+	background-color: #dcf3ff;
+	margin-left: 20px;
+	margin-top: 30px;
+
+}
+.type p{
+	font-size: 20px;
+	margin-left: 20px;
+}
+.left ul{
+	margin-top: 30px;
+}
+.left li{
+	margin-bottom: 15px;
+	margin-left: 40px;
+	font-size: 16px;
+	color: #6a80b6;
+}
+.right{
+	width: 800px;
+	height: 1419px;
+	float: left;
+}
+.right .fristul{
+	width: 782px;
+	height: 1419px;
+}
+.right .fristli{
+	width: 782px;
+	margin-top: 40px;
+}
+
+.right .fristli p{
+	font-size: 14px;
+	color: #8a8a8a;
+	margin-top: 15px;
+	line-height: 15px;
+}
+.right h1{
+	font-size: 16px;
+
+}
+.secondul{
+	font-size: 16px;
+	color: #0b4199;
+	margin-top: 15px;
+}
+.secondul .li1{
+	width: 300px;
+	height: 30px;
+	float: left;
+}
+.secondul .li2{
+	width: 250px;
+	height: 30px;
+	float: left;
+}
+.secondul .li3{
+	width: 170px;
+	height: 30px;
+	float: left;
+}
+ .li4{
+	width: 60px;
+	height: 30px;
+	float: left;
+}
+.fristli li{
+	border-bottom: 2px solid #d0d2d1;
+	margin-bottom: 40px;
+}
+.dingwei{
+	position: fixed;
+	right: 50px;
+	top: 140px;
+}
+.button{
+	width: 1200px;
+	height: 85px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 12px;
+	color: #2c53a0;
+}
+.button li{
+	text-align: center;
+	float: left;
+	border: 2px solid #a5a5a5;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+.button p{
+	float: left;
+}
+/*tail开始*/
+.tail{
+	height: 424px;
+	background: #454545;	
+}
+.topblue{
+	height: 60px;
+	width: 100%;
+	background: #0b4199;
+}
+.toptext{
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+.toptext li{
+	float: left;
+	height: 60px;
+
+}
+.toptext li img{
+	margin-top: 15px;
+}
+.toptext li:first-child{
+	margin-right: 162px;
+}
+.toptext li:last-child{
+	margin-left: 490px;
+}
+.bottomgray{
+	width: 1184px;
+	margin: 0 auto;
+	height: 320px;
+	padding-top: 55px;
+	padding-left: 16px;
+}
+.bottomleft{
+	width: 775px;
+	height: 180px;
+	border-right: 1px solid #525252;
+	float: left;
+	margin-bottom: 20px;
+}
+.bottomleft ul{
+	float: left;
+	width: 155px;
+	text-align: left;
+	font-size: 14px;
+	color: #ffffff;
+}
+.bottomleft ul:first-child{
+	width: 150px;
+}
+.bottomleft ul li:first-child{
+	font-size: 16px;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+.bottomleft ul li{
+	margin-bottom: 3px;
+}
+.bottomright{
+	width: 330px;
+	height: 198px;
+	float: left;
+	margin-left: 20px;
+	color: #ffffff;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.bottomright img{
+	margin-bottom: 25px;
+	margin-right: 180px;
+
+}
+.qingdao{
+	font-size: 14px;
+	margin-right: 50px;
+}
+.bmail{
+	margin-left: 95px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+.lastbottom span{
+	height: 26px;
+	width: 1200px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #ffffff;
+}
+.laone{
+	margin-left: 25px;
+	margin-right: 260px;
+}
+.lathree{
+	margin-left: 75px;
+}
+
+/*tail结束*/
