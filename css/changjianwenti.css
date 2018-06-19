@@ -100,8 +100,6 @@ ul,li,ol{
 .twoinput input{
 	width: 254px;
 	height: 36px;
-	font-size: 15px;
-	background: url(../images/search.png) no-repeat center right;
 }
 .head1 p{
 	font-size: 14px;
