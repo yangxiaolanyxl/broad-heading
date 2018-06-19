@@ -82,10 +82,40 @@ a{
     padding-top: 4px;
 }
 /*head结束*/
+/*subject1开始*/
 .subject1{
 	width:100%;
 	height:1330px;
 	background-color: #f9f9f9; 
+}
+.fly{
+	position: fixed;
+	right: 0px;
+	top: 140px;
+	width: 81px;
+	height: 310px;
+	background: url(../images/ldq7_03.png);
+}
+.a,.b,.c{
+	font-size: 14px;
+	width: 81px;
+	height: 81px;
+	text-align: center;
+}
+.fly li img{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.fly li p{
+	color:white;
+}
+.fly .d{
+	width: 81px;
+	line-height: 15px;
+	font-size: 10px;
+}
+.fly .d p{
+	padding-top: 50px;
 }
 .part1{
 	width: 1200px;
@@ -151,6 +181,7 @@ hr{
 	margin-left:12px;
 	margin-top: 64px;
 }
+/*subject1结束*/
 /*tail开始*/
 .tail{
 	height: 364px;
