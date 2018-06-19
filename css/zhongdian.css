@@ -97,14 +97,34 @@ a{
 	padding-top: 20px;
 	position: relative;
 }
-.part1 i{
-	display: block;
-	position: absolute;
+.fly{
+	position: fixed;
+	right: 0px;
 	top: 140px;
-	width: 84px;
+	width: 81px;
 	height: 310px;
-	right: -120px;
-	background: url(../images/ldq6_03.png);
+	background: url(../images/ldq7_03.png);
+}
+.a,.b,.c{
+	font-size: 14px;
+	width: 81px;
+	height: 81px;
+	text-align: center;
+}
+.fly li img{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.fly li p{
+	color:white;
+}
+.fly .d{
+	width: 81px;
+	line-height: 15px;
+	font-size: 10px;
+}
+.fly .d p{
+	padding-top: 50px;
 }
 .part1 .one{
 	color: #999;

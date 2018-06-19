@@ -1,6 +1,6 @@
 *{
-	padding:0;
-	margin:0;
+	margin: 0;
+	padding: 0;
 }
 ul,li,ol{
 	list-style: none;
@@ -85,8 +85,16 @@ a{
 /*subject1开始*/
 .subject1{
 	width:100%;
-	height:1330px;
+	height:1220px;
 	background-color: #f9f9f9; 
+}
+.part1{
+	width: 1200px;
+	height:1200px;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+	padding-top: 20px;
+	position: relative;
 }
 .fly{
 	position: fixed;
@@ -117,69 +125,71 @@ a{
 .fly .d p{
 	padding-top: 50px;
 }
-.part1{
-	width: 1200px;
-	height:1330px;
-	margin: 0 auto;
-	background-color: #f9f9f9;
-	margin-top: 20px;
-	position: relative;
-}
-.part1 i{
-	display: block;
-	position: absolute;
-	top: 140px;
-	width: 84px;
-	height: 310px;
-	right: -120px;
-	background: url(../images/ldq6_03.png);
-}
-.part1 a{
+.part1 .one{
 	color: #999;
 }
-.part1 .four{
+.part1 .two{
+	color: #999;
+}
+.part1 .three{
 	color: #2756a4;
 }
 .part1 h2{
 	margin-top: 66px;
-	margin-bottom: 10px;
-	color: #3e3e3e;
+	margin-bottom: 18px;
 }
-.part1 p{
-	margin-bottom: 53px;
-	color: #666;
+.fenge{
+	margin-bottom: 32px;
+	margin-top: 15px;
 }
-hr{
+.inside{
+	width: 265px;
+	height: 465px;
+	margin: 0 auto;
+}
+.inside hr{
 	border-top:1px dotted #185598;
-	margin-top: 22px;
-	margin-bottom: 33px;
+	margin-bottom: 21px;
 }
-.part1 .inside{
+.part1 img{
 	width: 1200px;
-	height:980px;
+	height: 200px;
+	margin: 0 auto;
+}
+.part1 h3{
+	text-align: left;
+	margin-left: 20px;
+	margin-bottom: 19px;
+	margin-top: 50px;
+	color:#2756a4;
+}
+.part1 .four{
+	color: #666;	
+	margin-left: 20px;
+	margin-bottom: 45px;
+}
+.group1,.group2,.group3{
+	width: 289px;
+	height: 465px;
+	color: #fff;
+	float: left;
 	background-color: #fff;
+	margin-right: 25px;
 }
-.inside img{
-	float:left;
+.group1 img,.group2 img,.group3 img{
+	width: 265px;
+	height:150px;
+	padding-top: 18px;
 }
-.inside .one{
-	margin-left:12px; 
-	margin-top: 30px;
+.part1 .first{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 15px;
 }
-.inside .two{
-	margin-right: 36px;
-	margin-top: 30px;
-}
-.inside .three{
-	margin-top: 30px;
-}
-.inside .four{
-	margin-right: 12px;
-	margin-top: 30px;
-}
-.inside .five{
-	margin-left:12px;
-	margin-top: 64px;
+.group1 p,.group2 p,.group3 p{
+	text-align: left;
+	padding-bottom:14px; 
+	color: #2756a4;
 }
 /*subject1结束*/
 /*tail开始*/
