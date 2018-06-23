@@ -1,13 +1,13 @@
 *{
-	padding:0;
-	margin:0;
-}
-ul,li,ol{
-	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 a{
 	text-decoration: none;
 }
+ul,li,ol{
+	list-style: none;
+} 
 /*head开始*/
 .head{
 	height: 153px;
@@ -81,110 +81,198 @@ a{
 .rightinput{
     padding-top: 4px;
 }
+
 /*head结束*/
-/*subject1开始*/
-.subject1{
-	width:100%;
-	height:1330px;
-	background-color: #f9f9f9; 
-}
-.fly{
-	position: fixed;
-	right: 0px;
-	top: 140px;
-	width: 81px;
-	height: 310px;
-	background: url(../images/ldq7_03.png);
-}
-.a,.b,.c{
-	font-size: 14px;
-	width: 81px;
-	height: 81px;
-	text-align: center;
-}
-.fly li img{
-	margin-top: 10px;
-	margin-bottom: 0px;
-}
-.fly li p{
-	color:white;
-}
-.fly .d{
-	width: 81px;
-	line-height: 15px;
-	font-size: 10px;
-}
-.fly .d p{
-	padding-top: 50px;
-}
-.part1{
-	width: 1200px;
-	height:1330px;
-	margin: 0 auto;
+
+.body{
+	width: 100%;
+	height: 1785px;
 	background-color: #f9f9f9;
-	margin-top: 20px;
-	position: relative;
 }
-.part1 i{
-	display: block;
-	position: absolute;
-	top: 140px;
-	width: 84px;
-	height: 310px;
-	right: -120px;
-	background: url(../images/ldq6_03.png);
+.twoinput input{
+	width: 310px;
+	height: 30px;
+	background: url(../images/inputtwo.png) no-repeat center right;
+	border: 1px solid #b0b0b0;
 }
-.part1 a{
-	color: #999;
+.head1{
+	width: 1199px;
+	height: 230px;
+	margin:0 auto;
+	padding-top:1px;
 }
-.part1 .four{
-	color: #2756a4;
+.head1 p{
+	font-size: 14px;
+	color: #adadad;
+	margin-top: 10px;
 }
-.part1 h2{
-	margin-top: 66px;
-	margin-bottom: 10px;
+.head1 h1{
+	font-size: 24px;
 	color: #3e3e3e;
+	margin-top: 60px;
+	margin-bottom: 5px;
 }
-.part1 p{
-	margin-bottom: 53px;
-	color: #666;
+.head1 h2{
+	font-size: 14px;
+	color: #939393;
+	
 }
-hr{
-	border-top:1px dotted #185598;
-	margin-top: 22px;
-	margin-bottom: 33px;
+.head1 form{
+	font-size: 16px;
+	margin-top: 40px;
 }
-.part1 .inside{
+.page{
 	width: 1200px;
-	height:980px;
+	height: 1474px;
 	background-color: #fff;
+	margin: 0 auto;
 }
-.inside img{
-	float:left;
+.nav{
+	width: 1200px;
+	height: 50px;
+	background: url(../images/head3.png) no-repeat center;
 }
-.inside .one{
-	margin-left:12px; 
+.nav li{
+	width: 380px;
+	height: 50px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	float: left;
+}
+.left{
+	width: 400px;
+	height: 1420px;
+	float: left;
+}
+.type{
+	width: 295px;
+	height: 35px;
+	background-color: #dcf3ff;
+	margin-left: 20px;
+	margin-top: 30px;
+
+}
+.type p{
+	font-size: 20px;
+	margin-left: 20px;
+}
+.left ul{
 	margin-top: 30px;
 }
-.inside .two{
-	margin-right: 36px;
-	margin-top: 30px;
+.left li{
+	margin-bottom: 15px;
+	margin-left: 40px;
+	font-size: 16px;
+	color: #6a80b6;
 }
-.inside .three{
-	margin-top: 30px;
+.right{
+	width: 800px;
+	height: 1419px;
+	float: left;
+	
 }
-.inside .four{
-	margin-right: 12px;
-	margin-top: 30px;
+.right .fristul{
+	width: 782px;
+	height: 1419px;
 }
-.inside .five{
-	margin-left:12px;
-	margin-top: 64px;
+.right .fristli{
+	width: 782px;
+	margin-top: 40px;
 }
-/*subject1结束*/
+
+.right .fristli p{
+	font-size: 14px;
+	color: #8a8a8a;
+	margin-top: 15px;
+	line-height: 15px;
+}
+.right h1{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.secondul{
+	font-size: 16px;
+	color: #0b4199;
+	margin-top: 15px;
+}
+.secondul .li1{
+	width: 300px;
+	height: 30px;
+	float: left;
+}
+.secondul .li2{
+	width: 250px;
+	height: 30px;
+	float: left;
+}
+.secondul .li3{
+	width: 170px;
+	height: 30px;
+	float: left;
+}
+ .li4{
+	width: 60px;
+	height: 30px;
+	float: left;
+}
+.fristli p{
+	border-bottom: 2px solid #d0d2d1;
+	padding-bottom: 30px;
+}
+.rightfour{
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	position: fixed;
+	right: 94px;
+	top: 155px;
+	width: 80px;
+	height: 308px;
+	background: url(../images/bgrightfour.png);
+}
+.rightfour li{
+	margin-bottom: 15px;
+}
+.rightfour li:last-child{
+	font-size: 12px;
+	margin-top: 55px;
+	color: #7f7f7f;
+}
+.button{
+	width: 1200px;
+	height: 85px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 12px;
+	color: #2c53a0;
+}
+.button li{
+	text-align: center;
+	float: left;
+	border: 1px solid #a5a5a5;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+.button li img{
+	margin-top: 3px;
+}
+.diyiye{
+	width: 55px;
+	height: 20px;
+}
+.yeshu{
+	width: 20px;
+	height: 20px;
+}
+.button p{
+	margin-top: 2px;
+}
 /*tail开始*/
 .tail{
-	height: 364px;
+	height: 424px;
 	background: #454545;	
 }
 .topblue{
@@ -280,4 +368,5 @@ hr{
 .lathree{
 	margin-left: 75px;
 }
+
 /*tail结束*/

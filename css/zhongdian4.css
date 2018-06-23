@@ -1,18 +1,12 @@
 *{
-	padding: 0;
 	margin: 0;
+	padding: 0;
 }
-ol,ul,li{
+ul,li,ol{
 	list-style: none;
 }
 a{
 	text-decoration: none;
-}
-.clear:after{
-	content: "";
-	height: 0;
-	display:block;
-	clear:both;
 }
 /*head开始*/
 .head{
@@ -46,7 +40,7 @@ a{
 	margin-left: 740px;
 }
 .chinese{
-	margin-left: 29px;
+	margin-left: 27px;
 
 }
 .language{
@@ -87,83 +81,102 @@ a{
 .rightinput{
     padding-top: 4px;
 }
-
 /*head结束*/
-.container{
-	width:100%;
-	height: 1473px;
-	background-color:#f9f9f9;
-	/*background: url(../images/j6.png) no-repeat;
-	background-position: top 137px right 10px;*/
-	position: relative;
+/*subject开始*/
+.subject1{
+	width: 100%;
+	height: 894px;
+	background-color:#f9f9f9;	
 }
-.box{
-	width: 1209px;
-	height: 1290px;
-	margin:0 auto;
-}
-.first{
-	height: 175px;
-	width: 1200px;
-	margin:0 auto;
-	border-bottom:1px dashed #dbdbdb;
-}
-.first >p{
-	display:block;
-	padding-top: 20px;
-	color: #999999;
-}
-.first h3{
-	margin-top: 65px;
-	display:block;
-}
-.first:last-child p{
-	margin-bottom: 20px;
-	color: #939393;
-}
-.fourth{
-	margin:0 auto;
-	text-align: center;
-	background: green;
-	margin-top: 13px;
-}
-.fourth ul li{
-	background: #ffffff;
-	height: 1230px;
-}
-.fourth img{
-	margin-top: 15px;
-}
-.fourth p{
-	display: block;
-	text-indent:2em;
-	text-align: left;
-	margin-top: 25px;
-	color: #484848;
-}
-.rightfour{
-	text-align: center;
-	color: #ffffff;
-	font-size: 14px;
+.fly{
 	position: fixed;
-	right: 80px;
-	top: 155px;
-	width: 80px;
-	height: 308px;
-	background: url(../images/bgrightfour.png);
+	right: 0px;
+	top: 140px;
+	width: 81px;
+	height: 310px;
+	background: url(../images/ldq7_03.png);
 }
-.rightfour li{
-	margin-bottom: 15px;
+.a,.b,.c{
+	font-size: 14px;
+	width: 81px;
+	height: 81px;
+	text-align: center;
 }
-.rightfour li:last-child{
-	font-size: 12px;
-	margin-top: 55px;
-	color: #7f7f7f;
+.fly li img{
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
+.fly li p{
+	color:white;
+}
+.fly .d{
+	width: 81px;
+	line-height: 15px;
+	font-size: 10px;
+}
+.fly .d p{
+	padding-top: 50px;
+}
+.part1{
+	width: 1200px;
+	height: 874px;
+	background-color: #f9f9f9;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.part1 a{
+	color: #999;
+}
+.part1 .five{
+	color: #2756a4;
+}
+.part1 h2{
+	margin-top: 66px;
+	margin-bottom: 8px;
+}
+hr{
+	border-top:1px dotted #185598;
+	margin-top: 20px;
+	margin-bottom: 31px;
+}
+.group1{
+	width: 1200px;
+	height: 572px;
+	background-color: #fff;
+}
+.group1 h4{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+.group1>ul{
+	float: left;
+}
+.member1{
+	float: left;
+}
+.member2{
+	float: right;
+}
+.member1>li{
+	width: 580px;
+	height: 150px;
+	background-color: #fff;
+	margin-left: 20px;	
+}
+.member2>li{
+	width: 600px;
+	height: 150px;
+	background-color: #fff;
+}
+.left li,.right li{
+	margin-bottom: 8px;
+}
+/*subject结束*/
 /*tail开始*/
 .tail{
 	height: 364px;
-	background: #454545;
+	background: #454545;	
 }
 .topblue{
 	height: 60px;
@@ -190,21 +203,22 @@ a{
 	margin-left: 490px;
 }
 .bottomgray{
-	width: 1200px;
+	width: 1184px;
 	margin: 0 auto;
-	height: 264px;
-	padding-top: 40px;
+	height: 320px;
+	padding-top: 55px;
+	padding-left: 16px;
 }
 .bottomleft{
-	width: 890px;
-	height: 198px;
+	width: 775px;
+	height: 180px;
 	border-right: 1px solid #525252;
 	float: left;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .bottomleft ul{
 	float: left;
-	width: 185px;
+	width: 155px;
 	text-align: left;
 	font-size: 14px;
 	color: #ffffff;
@@ -214,44 +228,47 @@ a{
 }
 .bottomleft ul li:first-child{
 	font-size: 16px;
-	margin-bottom: 24px;
-	margin-top: 18px;
+	margin-bottom: 25px;
+	margin-top: 20px;
 }
 .bottomleft ul li{
-	margin-bottom: 10px;
+	margin-bottom: 3px;
 }
 .bottomright{
-	width: 275px;
+	width: 330px;
 	height: 198px;
 	float: left;
-	margin-left: 34px;
+	margin-left: 20px;
 	color: #ffffff;
 	font-size: 12px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .bottomright img{
-	margin-bottom: 30px;
-	margin-right: 110px;
+	margin-bottom: 25px;
+	margin-right: 180px;
 
 }
 .qingdao{
 	font-size: 14px;
-	margin-right: 26px;
+	margin-right: 50px;
 }
 .bmail{
-	margin-left: 70px;
-	margin-bottom: 15px;
-	margin-top: 10px;
+	margin-left: 95px;
+	margin-bottom: 3px;
+	margin-top: 3px;
 }
 .lastbottom span{
 	height: 26px;
 	width: 1200px;
-	margin-top: 30px;
+	margin-top: 10px;
 	font-size: 12px;
 	color: #ffffff;
 }
 .laone{
-	margin-left: 132px;
-	margin-right: 140px;
+	margin-left: 25px;
+	margin-right: 260px;
+}
+.lathree{
+	margin-left: 75px;
 }
 /*tail结束*/
