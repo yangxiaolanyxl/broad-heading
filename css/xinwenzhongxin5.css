@@ -83,6 +83,7 @@ a{
 }
 
 /*head结束*/
+<<<<<<< HEAD
 .all{
 	background-color: #f4f4f4;
 }
@@ -93,7 +94,28 @@ a{
 	border-bottom: 1px dashed gray;
 }
 .one{
+	padding-top: 15px;
 	font-size: 16px;
+=======
+.allall{
+	background-color: #f4f4f4;
+}
+.all{
+	background-color: #f4f4f4;
+	width: 1200px;
+	height: 1690px;
+	margin:0 auto;
+}
+.hea{
+	padding-top: 1px;
+	width: 1199px;
+	height: 170px;
+	margin:0 auto;
+}
+.one{
+	font-size: 16px;
+	margin-top: 9px;
+>>>>>>> 3791ad2cc81e4378f5079624d291f0fc99d9119f
 	color:gray;
 }
 .one span{
@@ -109,8 +131,22 @@ a{
 	font-size: 16px;
 	color:gray;
 }
+<<<<<<< HEAD
 .neck{
 	height: 1470px;
+=======
+.changxuxian{
+	position: relative;
+	top: -10px;
+}
+.duanxuxian{
+	margin-left: 50px;
+	position: relative;
+	top: -15px;
+}
+.neck{
+	height: 1400px;
+>>>>>>> 3791ad2cc81e4378f5079624d291f0fc99d9119f
 	width: 1200px;
 	margin: 0 auto;
 	background-color: #ffffff;
@@ -118,8 +154,13 @@ a{
 }
 .four{
 	width: 1200px;
+<<<<<<< HEAD
 	height: 105px;
 	border-bottom:1px dashed gray; 
+=======
+	height: 95px;
+	/*border-bottom:1px dashed gray; */
+>>>>>>> 3791ad2cc81e4378f5079624d291f0fc99d9119f
 	margin: 0 auto; 
 }
 .four ul{
@@ -139,19 +180,36 @@ a{
 	padding-left: 170px;
 }
 .fi{
+<<<<<<< HEAD
 	margin: 0 auto;
+=======
+	margin-left: 50px;
+>>>>>>> 3791ad2cc81e4378f5079624d291f0fc99d9119f
 	width: 1100px;
 	float: left;
 	text-indent: 20px;
 	color: #434343;
 	line-height: 30px;
+<<<<<<< HEAD
 }
 .fi1{
 	padding-top: 54px;
+=======
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.fi1{
+	padding-top: 30px;
+>>>>>>> 3791ad2cc81e4378f5079624d291f0fc99d9119f
 	margin: 0 auto;
 	width: 1100px;
 }
 .fiv{
+<<<<<<< HEAD
+=======
+	margin-top: 40px;
+	font-size: 20px;
+>>>>>>> 3791ad2cc81e4378f5079624d291f0fc99d9119f
 	text-align: center;
 	color: #434343;
 }
@@ -164,6 +222,7 @@ a{
 	width: 1100px;
 	margin: 0 auto;
 	color: #0b4199;
+<<<<<<< HEAD
 	padding-top: 115px;
 }
 .six p{
@@ -173,14 +232,28 @@ a{
 	height: 70px;
 }
 .bian{
+=======
+	margin-top: 80px;
+}
+.six p{
+	line-height: 30px;
+	font-size: 14px;
+}
+/*.bian{
+>>>>>>> 3791ad2cc81e4378f5079624d291f0fc99d9119f
 	float: right;
 	font-size:14px; 
 	color:#ffffff;
 	position: fixed;
 	top:291px;
 	left:1420px;
+<<<<<<< HEAD
 }
 .li11{
+=======
+}*/
+/*.li11{
+>>>>>>> 3791ad2cc81e4378f5079624d291f0fc99d9119f
 	width: 84px;
 	height: 78px;
 	border-bottom: 1px dashed white;
@@ -211,6 +284,28 @@ a{
 	border-bottom: 1px solid #8d8d8d;
 	background-color:#8d8d8d;
 	text-align: center; 
+<<<<<<< HEAD
+=======
+}*/
+.rightfour{
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	position: fixed;
+	right: 94px;
+	top: 155px;
+	width: 80px;
+	height: 308px;
+	background: url(../images/bgrightfour.png);
+}
+.rightfour li{
+	margin-bottom: 15px;
+}
+.rightfour li:last-child{
+	font-size: 12px;
+	margin-top: 55px;
+	color: #7f7f7f;
+>>>>>>> 3791ad2cc81e4378f5079624d291f0fc99d9119f
 }
 /*tail开始*/
 .tail{
@@ -311,4 +406,8 @@ a{
 	margin-left: 75px;
 }
 
+<<<<<<< HEAD
 /*tail结束*/
+=======
+/*tail结束*/
+>>>>>>> 3791ad2cc81e4378f5079624d291f0fc99d9119f
