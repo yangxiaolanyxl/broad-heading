@@ -100,6 +100,9 @@ a{
 .one span{
 	color:#0b4199;
 }
+.one a{
+	color:gray;
+}
 .two{
 	margin-top: 67px;
 	font-size: 24px;
@@ -190,6 +193,9 @@ a{
 	font-size: 12px;
 	color:#0b4199;
 	padding-left: 850px;
+}
+.eight a{
+	color:#0b4199;
 }
 .zh{
 	width:1200px;
