@@ -181,10 +181,11 @@ a{
 	height:150px;
 	padding-top: 18px;
 }
-.part1 .first{
+.part1 a{
 	text-align: center;
 	margin-top: 25px;
 	margin-bottom: 15px;
+	color:#2756a4;
 }
 .group1 p,.group2 p,.group3 p{
 	text-align: left;
