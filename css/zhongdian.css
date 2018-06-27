@@ -53,38 +53,17 @@ a{
 	width: 82px;
 	text-align: center;
 	margin-right: 39px;
+	font-size: 16px;
+	color: #434343;
 	padding-top: 17px;
 }
-
 .menu li:first-child{
-	padding-left: 5px;
 	text-align: left;
-	margin-right: 40px;
-	width: 37px;
+	margin-right: 0px;
 
 }
-.menu li:first-child a{
-	text-align: left;	
-	width: 42px;
-}
-.menu .hide{
-	
-}
-.menu li:hover{
+.skill{
 	background: #2756a4;
-	color: #ffffff;
-    display: block;
-}
-.menu li:hover a{
-	color: #ffffff;
-}
-.menu li a{
-    display: block;
-    height: 33px;
-	width: 82px;
-	text-align: center;
-	color: #434343;
-	font-size: 16px;
 }
 .menu{
 	height: 50px;
@@ -202,9 +181,10 @@ hr{
 	margin-top: 17px;
 	margin-bottom:24px; 
 }
-.part1 .first{
+.group1 .inside a{
 	text-align: center;
 	color: #2756a4;	
+	margin-left: 14px;
 }
 .inside{
 	width: 262px;
