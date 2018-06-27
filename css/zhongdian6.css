@@ -117,7 +117,7 @@ a{
 	padding-top: 50px;
 }
 .part1{
-	width: 100%;
+	width: 1200px;
 	height: 1390px;
 	padding-top: 20px;
 	margin: 0 auto;
@@ -201,21 +201,6 @@ hr{
 	border: 1px solid #b6b6b6;
 	border-radius: 5px;
 	margin-right: 5px;	
-}
-.page .a a{
-	color: #b6b6b6;
-}
-.page .a1 a{
-	color: #b6b6b6;
-	display: block;
-}
-.page .i select{
-	color: #b6b6b6;
-	background: #f9f9f9;
-}
-.page .c p{
-	color: red;
-
 }
 .page .e{
 	width: 64px;
