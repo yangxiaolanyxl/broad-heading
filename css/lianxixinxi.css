@@ -118,6 +118,9 @@ a{
 	margin-bottom: 20px;
 	color: #939393;
 }
+.first a{
+	color: #999999;
+}
 .second{
 	width: 1200px;
 	height: 40px;
