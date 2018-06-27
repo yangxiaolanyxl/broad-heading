@@ -117,6 +117,9 @@ a{
 	margin-top: 65px;
 	display:block;
 }
+.first a{
+	color: #999999;
+}
 .first:last-child p{
 	margin-bottom: 20px;
 	color: #939393;
