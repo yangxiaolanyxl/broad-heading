@@ -81,12 +81,13 @@ a{
 .rightinput{
     padding-top: 4px;
 }
+
 /*head结束*/
-/*subject1开始*/
+/*subject开始*/
 .subject1{
 	width:100%;
 	height:1220px;
-	background-color: #f9f9f9; 
+	background-color: #f9f9f9; 	
 }
 .part1{
 	width: 1200px;
@@ -129,26 +130,15 @@ a{
 	color: #999;
 }
 .part1 .two{
-	color: #999;
-}
-.part1 .three{
 	color: #2756a4;
 }
 .part1 h2{
 	margin-top: 66px;
 	margin-bottom: 18px;
 }
-.fenge{
-	margin-bottom: 32px;
-	margin-top: 15px;
-}
-.inside{
-	width: 265px;
-	height: 465px;
-	margin: 0 auto;
-}
-.inside hr{
+hr{
 	border-top:1px dotted #185598;
+	margin-top: 43px;
 	margin-bottom: 21px;
 }
 .part1 img{
@@ -160,39 +150,59 @@ a{
 	text-align: left;
 	margin-left: 20px;
 	margin-bottom: 19px;
-	margin-top: 50px;
 	color:#2756a4;
 }
-.part1 .four{
-	color: #666;	
-	margin-left: 20px;
-	margin-bottom: 45px;
-}
-.group1,.group2,.group3{
-	width: 289px;
-	height: 465px;
-	color: #fff;
-	float: left;
-	background-color: #fff;
-	margin-right: 25px;
-}
-.group1 img,.group2 img,.group3 img{
-	width: 265px;
-	height:150px;
-	padding-top: 18px;
-}
-.part1 a{
-	text-align: center;
-	margin-top: 25px;
-	margin-bottom: 15px;
-	color:#2756a4;
-}
-.group1 p,.group2 p,.group3 p{
+.part1 .three{
 	text-align: left;
-	padding-bottom:14px; 
-	color: #2756a4;
+	margin-left: 20px;
 }
-/*subject1结束*/
+.part1 p{
+	color: #999;
+}
+.part1 .group1{
+	width: 290px;
+	height:478px;
+	margin-top: 45px;
+	background-color: #fff;
+	float: left;
+}
+.part1 .group2{
+	width: 290px;
+	height:478px;
+	margin-top: 45px;
+	margin-left: 19px;
+	background-color: #fff;	
+	float: left;
+}
+.group1 img,.group2 img{
+	width: 262px;
+	height: 145px;
+	float: left;
+	margin-top: 17px;
+	margin-bottom:24px; 
+}
+.group1 .inside a{
+	text-align: center;
+	color: #2756a4;	
+	margin-left: 14px;
+}
+.inside{
+	width: 262px;
+	height: 478px;
+	margin: 0 auto;
+	background-color: #fff;	
+}
+.inside hr{
+	border-top:1px dotted #185598;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	color: #999;
+}
+.group1 p,.group2 p{
+	color: #2756a4;	
+	margin-left: 14px;
+}
+/*subject结束*/
 /*tail开始*/
 .tail{
 	height: 364px;
