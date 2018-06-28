@@ -53,31 +53,6 @@ a{
 	width: 82px;
 	text-align: center;
 	margin-right: 39px;
-	font-size: 16px;
-	color: #434343;
-	padding-top: 17px;
-}
-.menu li:first-child{
-	text-align: left;
-	margin-right: 0px;
-
-}
-.skill{
-	background: #2756a4;
-}
-.menu{
-	height: 50px;
-	margin-top: 25px;
-
-}
-.menu input{
-	width: 254px;
-	height: 36px;.menu li{
-	float:left;
-	height: 33px;
-	width: 82px;
-	text-align: center;
-	margin-right: 39px;
 	padding-top: 17px;
 }
 
@@ -119,11 +94,6 @@ a{
 .menu input{
 	width: 254px;
 	height: 36px;
-	font-size: 15px;
-	background: url(../images/search.png) no-repeat center right;
-	border: none;
-	margin-left: 15px;
-}
 	font-size: 15px;
 	background: url(../images/search.png) no-repeat center right;
 	border: none;
